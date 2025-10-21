@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MirandaHub</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #0072ff, #00c6ff);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            animation: fadeIn 1s ease;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        p {
+            color: #e0e0e0;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: block;
+            width: 230px;
+            margin: 10px auto;
+            padding: 14px 20px;
+            border: none;
+            border-radius: 10px;
+            font-size: 17px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.3s ease;
+            color: white;
+        }
+
+        .premium {
+            background: gray;
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+
+        .miranda {
+            background: linear-gradient(90deg, #00d4ff, #0066ff);
+        }
+
+        .joiner {
+            background: linear-gradient(90deg, #ff00cc, #3333ff);
+        }
+
+        .getmiranda {
+            background: linear-gradient(90deg, #00ff9d, #00b8ff);
+        }
+
+        .btn:hover:not(.premium) {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MirandaHub 💀</h1>
+        <p>Selecciona una opción:</p>
+
+        <a class="btn premium">🔒 Premium</a>
+        <a class="btn miranda">💻 MirandaHub</a>
+        <a class="btn joiner">⚡ Joiner.Hub</a>
+        <a class="btn getmiranda" href="https://www.roblox.com/share?code=5a33be7b0b4b1c4eb6c591f995ad7b08&type=Server" target="_blank">🚀 Get MirandaHub</a>
+    </div>
+</body>
+</html>
